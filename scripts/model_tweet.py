@@ -4,6 +4,7 @@ import numpy as np
 import csv
 import tweepy
 import json
+import matplotlib.pyplot as plt
 
 def get_teams(df):
     
@@ -63,7 +64,7 @@ def build_target(df, teams):
 
     return team_target
 
-def autolabel(rects):
+def autolabel(rects, team_real, team_pred, ax):
     # attach some text labels
     for t,p,rect in zip(team_real,team_pred,rects):
         width = rect.get_width()
@@ -118,7 +119,7 @@ def main():
 	rects2 = ax.barh(ind + width + space, team_real, width, color='#27AE60')
 
 	# add some text for labels, title and axes ticks
-	ax.set_xlabel('Scores')
+	ax.set_xlabel('Points')
 	ax.set_title('Serie A predicted vs real points')
 	ax.set_yticks(ind + width)
 	ax.set_yticklabels(team_names,size=14,family='sans-serif')
@@ -126,7 +127,7 @@ def main():
 	ax.legend((rects1[0], rects2[0]), ('Predicted', 'Real'), loc=4)
 
 	#autolabel(rects1)
-	autolabel(rects2)
+	autolabel(rects2,team_real,team_pred,ax)
 	plt.savefig("serieA.png")
 
 	with open('../data/credentials.json', 'r') as fp:
@@ -136,8 +137,13 @@ def main():
 	CONSUMER_SECRET = api_cred["CONSUMER_SECRET"]
 	OAUTH_TOKEN = api_cred["OAUTH_TOKEN"]
 	OAUTH_TOKEN_SECRET = api_cred["OAUTH_SECRET"]
+	
+	auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+	auth.set_access_token(OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 
-	api.update_with_media(filename="serieA.png",status="test media update")
+	api = tweepy.API(auth)
+
+	api.update_with_media(filename="serieA.png",status="After 7 matches predicted vs actual points for #serieA.")
 
 if __name__	== "__main__":
 	main()
