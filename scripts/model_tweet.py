@@ -81,7 +81,8 @@ def main():
 	feat_1617 = build_features(df_week, teams_1617)
 	model_1 = joblib.load('../data/linreg_model.pkl')
 	pred_1617 = model_1.predict(feat_1617)
-
+	fixt = df_week[(df_week.HomeTeam=="Inter") | (df_week.AwayTeam=="Inter")].shape[0]
+	
 	ranking  = []
 	realrank = []
 
@@ -143,7 +144,7 @@ def main():
 
 	api = tweepy.API(auth)
 
-	api.update_with_media(filename="serieA.png",status="After 7 matches predicted vs actual points for #serieA.")
+	api.update_with_media(filename="serieA.png",status="After "+fixt+" matches predicted vs actual points for #serieA.")
 
 if __name__	== "__main__":
 	main()
