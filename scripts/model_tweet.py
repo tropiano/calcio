@@ -73,7 +73,7 @@ def autolabel(rects, team_real, team_pred, ax):
                 ha='left', va='top', size=14)
 
 
-def main():
+def post_tweet():
 				
 	df_week = pd.read_csv("http://www.football-data.co.uk/mmz4281/1617/I1.csv")
 	teams_1617 = get_teams(df_week)
@@ -147,4 +147,4 @@ def main():
 	api.update_with_media(filename="serieA.png",status="After "+str(fixt)+" matches predicted vs actual points for #serieA.")
 
 if __name__	== "__main__":
-	main()
+	post_tweet()
