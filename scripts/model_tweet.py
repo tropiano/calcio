@@ -144,7 +144,7 @@ def post_tweet():
 
 	api = tweepy.API(auth)
 
-	api.update_with_media(filename="serieA.png",status="After "+str(fixt)+" matches predicted vs actual points for #serieA.")
+    	api.update_with_media(filename="serieA.png",status="#serieA predicted vs actual points after "+str(fixt)+" matches.")
 
 if __name__	== "__main__":
 	post_tweet()
