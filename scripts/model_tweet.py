@@ -79,7 +79,7 @@ def post_tweet():
 	teams_1617 = get_teams(df_week)
 	targ_1617 = build_target(df_week, teams_1617)
 	feat_1617 = build_features(df_week, teams_1617)
-	model_1 = joblib.load('../data/linreg_model.pkl')
+	model_1 = joblib.load('home/tropianhs/calcio/data/linreg_model.pkl')
 	pred_1617 = model_1.predict(feat_1617)
 	fixt = df_week[(df_week.HomeTeam=="Inter") | (df_week.AwayTeam=="Inter")].shape[0]
 	
@@ -131,7 +131,7 @@ def post_tweet():
 	autolabel(rects2,team_real,team_pred,ax)
 	plt.savefig("serieA.png")
 
-	with open('../data/credentials.json', 'r') as fp:
+	with open('home/tropianhs/calcio/data/credentials.json', 'r') as fp:
 		api_cred = json.load(fp)
 		
 	CONSUMER_KEY = api_cred["CONSUMER_KEY"]
