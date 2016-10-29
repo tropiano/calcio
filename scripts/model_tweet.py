@@ -107,7 +107,11 @@ def post_tweet():
 	team_names.reverse()
 	team_pred.reverse()
 	team_real.reverse()
-
+  
+  point_diff = [p-r for p,r in zip(team_pred,team_real)]
+  unluckiest_team = team_names[diff.index(max(diff))]
+  luckiest_team   = team_names[diff.index(min(diff))]
+  
 	width = 0.35       # the width of the bars
 	space = 0.07       # the space bw the bars
 
@@ -143,8 +147,8 @@ def post_tweet():
 	auth.set_access_token(OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 
 	api = tweepy.API(auth)
-
-    	api.update_with_media(filename="serieA.png",status="#serieA predicted vs actual points after "+str(fixt)+" matches.")
+  status_str = "#serieA predicted vs actual points after "+str(fixt)+" matches." unluckiest_team + " the unluckiest." +luckiest_team + " the  luckiest."
+  api.update_with_media(filename="serieA.png",status=status_str)
 
 if __name__	== "__main__":
 	post_tweet()
