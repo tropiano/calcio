@@ -79,7 +79,10 @@ def post_tweet():
 	teams_1617 = get_teams(df_week)
 	targ_1617 = build_target(df_week, teams_1617)
 	feat_1617 = build_features(df_week, teams_1617)
-	model_1 = joblib.load('/home/tropianhs/calcio/data/linreg_model.pkl')
+	try:
+		model_1 = joblib.load('/home/tropianhs/calcio/data/linreg_model.pkl')
+	except:
+		model_1 = joblib.load('../data/linreg_model.pkl')	
 	pred_1617 = model_1.predict(feat_1617)
 	fixt = df_week[(df_week.HomeTeam=="Inter") | (df_week.AwayTeam=="Inter")].shape[0]
 	
@@ -107,11 +110,11 @@ def post_tweet():
 	team_names.reverse()
 	team_pred.reverse()
 	team_real.reverse()
-  
-  point_diff = [p-r for p,r in zip(team_pred,team_real)]
-  unluckiest_team = team_names[diff.index(max(diff))]
-  luckiest_team   = team_names[diff.index(min(diff))]
-  
+	
+	point_diff = [p-r for p,r in zip(team_pred,team_real)]
+	unluckiest_team = team_names[point_diff.index(max(point_diff))]
+	luckiest_team   = team_names[point_diff.index(min(point_diff))]
+	
 	width = 0.35       # the width of the bars
 	space = 0.07       # the space bw the bars
 
@@ -134,9 +137,13 @@ def post_tweet():
 	#autolabel(rects1)
 	autolabel(rects2,team_real,team_pred,ax)
 	plt.savefig("serieA.png")
-
-	with open('/home/tropianhs/calcio/data/credentials.json', 'r') as fp:
-		api_cred = json.load(fp)
+	
+	try:
+		with open('/home/tropianhs/calcio/data/credentials.json', 'r') as fp:
+			api_cred = json.load(fp)
+	except:
+		with open('../data/credentials.json', 'r') as fp:
+			api_cred = json.load(fp)
 		
 	CONSUMER_KEY = api_cred["CONSUMER_KEY"]
 	CONSUMER_SECRET = api_cred["CONSUMER_SECRET"]
@@ -147,8 +154,9 @@ def post_tweet():
 	auth.set_access_token(OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 
 	api = tweepy.API(auth)
-  status_str = "#serieA predicted vs actual points after "+str(fixt)+" matches." unluckiest_team + " the unluckiest." +luckiest_team + " the  luckiest."
-  api.update_with_media(filename="serieA.png",status=status_str)
+	status_str = "#serieA predicted vs actual points after "+str(fixt)+" matches."+unluckiest_team+" the unluckiest."+luckiest_team+" the  luckiest."
+	api.update_with_media(filename="serieA.png",status=status_str)
+  
 
 if __name__	== "__main__":
 	post_tweet()
