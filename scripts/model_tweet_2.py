@@ -145,74 +145,12 @@ def create_viz(league):
 
 	#autolabel(rects1)
 	autolabel(rects2,team_real,team_pred,ax)
-	plt.savefig("serieA.png")
+	plt.savefig(league+".png")
 	
+	return fixt, unluckiest_team, luckiest_team
 
-def post_tweet():
+def post_tweet(league):
 				
-	df_week = pd.read_csv("http://www.football-data.co.uk/mmz4281/1617/I1.csv")
-	teams_1617 = get_teams(df_week)
-	targ_1617 = build_target(df_week, teams_1617)
-	feat_1617 = build_features(df_week, teams_1617)
-	try:
-		model_1 = joblib.load('/home/tropianhs/calcio/data/linreg_model.pkl')
-	except:
-		model_1 = joblib.load('../data/linreg_model.pkl')	
-	pred_1617 = model_1.predict(feat_1617)
-	fixt = df_week[(df_week.HomeTeam=="Inter") | (df_week.AwayTeam=="Inter")].shape[0]
-	
-	ranking  = []
-	realrank = []
-
-	for t,p,tg in zip(teams_1617,pred_1617,targ_1617):
-		ranking.append((t, p, tg))
-		
-	for t,p in zip(teams_1617,targ_1617):
-		realrank.append((t, p))
-
-		
-	ranking.sort(key=lambda x: x[2],reverse=True)
-	teams_pred_real = []
-
-	for t,p,tg in ranking:
-		#print t,'{:.1f}'.format(p),'{:.0f}'.format(tg), '{:.1f}'.format(tg-p)
-		teams_pred_real.append((t,'{:.1f}'.format(p),'{:.1f}'.format(tg)))
-
-	team_names = [x[0] for x in teams_pred_real]
-	team_pred =  [float(x[1]) for x in teams_pred_real]
-	team_real =  [float(x[2]) for x in teams_pred_real]
-
-	team_names.reverse()
-	team_pred.reverse()
-	team_real.reverse()
-	
-	point_diff = [p-r for p,r in zip(team_pred,team_real)]
-	unluckiest_team = team_names[point_diff.index(max(point_diff))]
-	luckiest_team   = team_names[point_diff.index(min(point_diff))]
-	
-	width = 0.35       # the width of the bars
-	space = 0.07       # the space bw the bars
-
-	n = 20
-	ind = np.arange(n)
-
-	fig, ax = plt.subplots(figsize=(12, 12))
-
-	rects1 = ax.barh(ind, team_pred, width, color='r')
-	rects2 = ax.barh(ind + width + space, team_real, width, color='#27AE60')
-
-	# add some text for labels, title and axes ticks
-	ax.set_xlabel('Points')
-	ax.set_title('Serie A predicted vs real points')
-	ax.set_yticks(ind + width)
-	ax.set_yticklabels(team_names,size=14,family='sans-serif')
-
-	ax.legend((rects1[0], rects2[0]), ('Predicted', 'Real'), loc=4)
-
-	#autolabel(rects1)
-	autolabel(rects2,team_real,team_pred,ax)
-	plt.savefig("serieA.png")
-	
 	try:
 		with open('/home/tropianhs/calcio/data/credentials.json', 'r') as fp:
 			api_cred = json.load(fp)
@@ -229,9 +167,13 @@ def post_tweet():
 	auth.set_access_token(OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 
 	api = tweepy.API(auth)
-	status_str = "#serieA predicted vs actual points after "+str(fixt)+" matches."+unluckiest_team+" the unluckiest."+luckiest_team+" the  luckiest."
-	api.update_with_media(filename="serieA.png",status=status_str)
+	
+	fixt=create_viz(league)[0]
+	unluckiest_team=create_viz(league)[1]
+	luckiest_team=create_viz(league)[2]
+	status_str = "#"+str(league)+" predicted vs actual points after "+str(fixt)+" matches."+unluckiest_team+" the unluckiest."+luckiest_team+" the luckiest."
+	api.update_with_media(filename=str(league)+".png",status=status_str)
   
 
 if __name__	== "__main__":
-	post_tweet()
+	post_tweet("seriea")
