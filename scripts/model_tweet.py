@@ -73,18 +73,27 @@ def autolabel(rects, team_real, team_pred, ax):
                 ha='left', va='top', size=14)
 
 
-def post_tweet():
-				
-	df_week = pd.read_csv("http://www.football-data.co.uk/mmz4281/1617/I1.csv")
+def create_viz(league):
+	
+	if league == "seriea":
+		df_week = pd.read_csv("http://www.football-data.co.uk/mmz4281/1617/I1.csv")
+		fixt = df_week[(df_week.HomeTeam=="Inter") | (df_week.AwayTeam=="Inter")].shape[0]
+		try:
+			model_1 = joblib.load('/home/tropianhs/calcio/data/linreg_model.pkl')
+		except:
+			model_1 = joblib.load('../data/linreg_model.pkl')
+	elif league == "epl":
+		df_week = pd.read_csv("http://www.football-data.co.uk/mmz4281/1617/E0.csv")
+		fixt = df_week[(df_week.HomeTeam=="Chelsea") | (df_week.AwayTeam=="Chelsea")].shape[0]
+		try:
+			model_1 = joblib.load('/home/tropianhs/calcio/data/linreg_model_en.pkl')
+		except:
+			model_1 = joblib.load('../data/linreg_model_en.pkl')
+	
 	teams_1617 = get_teams(df_week)
 	targ_1617 = build_target(df_week, teams_1617)
 	feat_1617 = build_features(df_week, teams_1617)
-	try:
-		model_1 = joblib.load('/home/tropianhs/calcio/data/linreg_model.pkl')
-	except:
-		model_1 = joblib.load('../data/linreg_model.pkl')	
 	pred_1617 = model_1.predict(feat_1617)
-	fixt = df_week[(df_week.HomeTeam=="Inter") | (df_week.AwayTeam=="Inter")].shape[0]
 	
 	ranking  = []
 	realrank = []
@@ -136,8 +145,12 @@ def post_tweet():
 
 	#autolabel(rects1)
 	autolabel(rects2,team_real,team_pred,ax)
-	plt.savefig("serieA.png")
+	plt.savefig(league+".png")
 	
+	return fixt, unluckiest_team, luckiest_team
+
+def post_tweet(league):
+				
 	try:
 		with open('/home/tropianhs/calcio/data/credentials.json', 'r') as fp:
 			api_cred = json.load(fp)
@@ -154,9 +167,13 @@ def post_tweet():
 	auth.set_access_token(OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 
 	api = tweepy.API(auth)
-	status_str = "#serieA predicted vs actual points after "+str(fixt)+" matches."+unluckiest_team+" the unluckiest."+luckiest_team+" the  luckiest."
-	api.update_with_media(filename="serieA.png",status=status_str)
+	
+	fixt=create_viz(league)[0]
+	unluckiest_team=create_viz(league)[1]
+	luckiest_team=create_viz(league)[2]
+	status_str = "#"+str(league)+" predicted vs actual points after "+str(fixt)+" matches."+unluckiest_team+" the unluckiest."+luckiest_team+" the luckiest."
+	api.update_with_media(filename=str(league)+".png",status=status_str)
   
 
 if __name__	== "__main__":
-	post_tweet()
+	post_tweet("seriea")
