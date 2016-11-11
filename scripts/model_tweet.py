@@ -133,11 +133,15 @@ def create_viz(league):
 	fig, ax = plt.subplots(figsize=(12, 12))
 
 	rects1 = ax.barh(ind, team_pred, width, color='r')
-	rects2 = ax.barh(ind + width + space, team_real, width, color='#27AE60')
-
+	if league=="seriea":
+		rects2 = ax.barh(ind + width + space, team_real, width, color='#27AE60')
+		ax.set_title('Serie A predicted vs real points')
+	elif league=="epl":
+		rects2 = ax.barh(ind + width + space, team_real, width, color='#1A5276')
+		ax.set_title('Premier League predicted vs real points')
+	
 	# add some text for labels, title and axes ticks
 	ax.set_xlabel('Points')
-	ax.set_title('Serie A predicted vs real points')
 	ax.set_yticks(ind + width)
 	ax.set_yticklabels(team_names,size=14,family='sans-serif')
 
