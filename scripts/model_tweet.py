@@ -6,7 +6,7 @@ import tweepy
 import json
 import matplotlib.pyplot as plt
 
-def get_teams(df):
+def get_teams(df,league="seriea"):
     
     teams = []
     
@@ -16,7 +16,8 @@ def get_teams(df):
 
         if i == 9: 
             return teams
-
+        if i == 8 and league=="bundesliga": 
+            return teams		
 			
 def build_features(df, teams):
 
@@ -95,9 +96,17 @@ def create_viz(league):
 		try:
 			model_1 = joblib.load('/home/tropianhs/calcio/data/linreg_model_es.pkl')
 		except:
-			model_1 = joblib.load('../data/linreg_model_en.pkl')		
+			model_1 = joblib.load('../data/linreg_model_es.pkl')
+	elif league == "bundesliga":
+		df_week = pd.read_csv("http://www.football-data.co.uk/mmz4281/1617/D1.csv")
+		fixt = df_week[(df_week.HomeTeam=="Dortmund") | (df_week.AwayTeam=="Dortmund")].shape[0]
+		try:
+			model_1 = joblib.load('/home/tropianhs/calcio/data/linreg_model_de.pkl')
+		except:
+			model_1 = joblib.load('../data/linreg_model_de.pkl')				
 	
-	teams_1617 = get_teams(df_week)
+	teams_1617 = get_teams(df_week,league=league)
+	print teams_1617
 	targ_1617 = build_target(df_week, teams_1617)
 	feat_1617 = build_features(df_week, teams_1617)
 	pred_1617 = model_1.predict(feat_1617)
@@ -134,7 +143,7 @@ def create_viz(league):
 	width = 0.35       # the width of the bars
 	space = 0.07       # the space bw the bars
 
-	n = 20
+	n = len(team_pred)
 	ind = np.arange(n)
 
 	fig, ax = plt.subplots(figsize=(12, 12))
@@ -144,12 +153,15 @@ def create_viz(league):
 		rects2 = ax.barh(ind + width + space, team_real, width, color='#27AE60')
 		ax.set_title('Serie A predicted vs real points')
 	elif league=="epl":
-		rects2 = ax.barh(ind + width + space, team_real, width, color='#1A5276')
+		rects2 = ax.barh(ind + width + space, team_real, width, color='#0000FF')
 		ax.set_title('Premier League predicted vs real points')
 	elif league=="laliga":
 		rects2 = ax.barh(ind + width + space, team_real, width, color='#F4D03F')
 		ax.set_title('La Liga predicted vs real points')
-		
+	elif league=="bundesliga":
+		rects2 = ax.barh(ind + width + space, team_real, width, color='k')
+		ax.set_title('Bundesliga predicted vs real points')
+			
 	# add some text for labels, title and axes ticks
 	ax.set_xlabel('Points')
 	ax.set_yticks(ind + width)

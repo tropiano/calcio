@@ -29,8 +29,17 @@ def schedule_laliga():
   if today_date in update_dates:
     mdt.post_tweet("laliga")
 
+def schedule_bundesliga():
+  
+  update_dates = ['2016-12-05','2016-12-12','2016-12-19','2017-12-22','2017-01-23']
+	
+  today_date =  datetime.date.today().isoformat()
+  
+  if today_date in update_dates:
+    mdt.post_tweet("bundesliga")
     
 if __name__	== "__main__":
 	schedule_epl()
 	schedule_seriea()
 	schedule_laliga()
+	schedule_bundesliga()
