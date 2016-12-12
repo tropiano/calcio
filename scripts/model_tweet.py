@@ -129,9 +129,11 @@ def create_viz(league):
 		teams_pred_real.append((t,'{:.1f}'.format(p),'{:.1f}'.format(tg)))
 
 	team_names = [x[0] for x in teams_pred_real]
-	team_pred =  [float(x[1]) for x in teams_pred_real]
-	team_real =  [float(x[2]) for x in teams_pred_real]
+	team_pred  = [float(x[1]) for x in teams_pred_real]
+	team_real  = [float(x[2]) for x in teams_pred_real]
 
+	print('Variance score: %.6f' % model_1.score(feat_1617, targ_1617))
+	
 	team_names.reverse()
 	team_pred.reverse()
 	team_real.reverse()
