@@ -203,5 +203,5 @@ def post_tweet(league):
 	api.update_with_media(filename=str(league)+".png",status=status_str)
   
 
-		if __name__	== "__main__":	
+if __name__	== "__main__":	
 	post_tweet("seriea")
