@@ -196,9 +196,10 @@ def post_tweet(league):
 
 	api = tweepy.API(auth)
 	
-	fixt=create_viz(league)[0]
-	unluckiest_team=create_viz(league)[1]
-	luckiest_team=create_viz(league)[2]
+	infos = create_viz(league)
+	fixt=infos[0]
+	unluckiest_team=infos[1]
+	luckiest_team=infos[2]
 	status_str = "#"+str(league)+" predicted vs actual points after "+str(fixt)+" matches."+unluckiest_team+" the unluckiest."+luckiest_team+" the luckiest."
 	api.update_with_media(filename=str(league)+".png",status=status_str)
   
