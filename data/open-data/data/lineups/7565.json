@@ -1,0 +1,261 @@
+[ {
+  "team_id" : 781,
+  "team_name" : "Brazil",
+  "lineup" : [ {
+    "player_id" : 3054,
+    "player_name" : "Fernando Luiz Rosa",
+    "player_nickname" : "Fernandinho",
+    "jersey_number" : 17,
+    "country" : {
+      "id" : 31,
+      "name" : "Brazil"
+    }
+  }, {
+    "player_id" : 3202,
+    "player_name" : "Gabriel Fernando de Jesus",
+    "player_nickname" : "Gabriel Jesus",
+    "jersey_number" : 9,
+    "country" : {
+      "id" : 31,
+      "name" : "Brazil"
+    }
+  }, {
+    "player_id" : 3295,
+    "player_name" : "Thiago Emiliano da Silva",
+    "player_nickname" : "Thiago Silva",
+    "jersey_number" : 2,
+    "country" : {
+      "id" : 31,
+      "name" : "Brazil"
+    }
+  }, {
+    "player_id" : 3472,
+    "player_name" : "Willian Borges da Silva",
+    "player_nickname" : "Willian",
+    "jersey_number" : 19,
+    "country" : {
+      "id" : 31,
+      "name" : "Brazil"
+    }
+  }, {
+    "player_id" : 3501,
+    "player_name" : "Philippe Coutinho Correia",
+    "player_nickname" : "Philippe Coutinho",
+    "jersey_number" : 11,
+    "country" : {
+      "id" : 31,
+      "name" : "Brazil"
+    }
+  }, {
+    "player_id" : 4320,
+    "player_name" : "Neymar da Silva Santos Junior",
+    "player_nickname" : "Neymar",
+    "jersey_number" : 10,
+    "country" : {
+      "id" : 31,
+      "name" : "Brazil"
+    }
+  }, {
+    "player_id" : 5539,
+    "player_name" : "Carlos Henrique Casimiro",
+    "player_nickname" : "Casemiro",
+    "jersey_number" : 5,
+    "country" : {
+      "id" : 31,
+      "name" : "Brazil"
+    }
+  }, {
+    "player_id" : 5542,
+    "player_name" : "José Paulo Bezzera Maciel Júnior",
+    "player_nickname" : "Paulinho",
+    "jersey_number" : 15,
+    "country" : {
+      "id" : 31,
+      "name" : "Brazil"
+    }
+  }, {
+    "player_id" : 5547,
+    "player_name" : "Alisson Ramsés Becker",
+    "player_nickname" : "Alisson",
+    "jersey_number" : 1,
+    "country" : {
+      "id" : 31,
+      "name" : "Brazil"
+    }
+  }, {
+    "player_id" : 5551,
+    "player_name" : "João Miranda de Souza Filho",
+    "player_nickname" : "João Miranda",
+    "jersey_number" : 3,
+    "country" : {
+      "id" : 31,
+      "name" : "Brazil"
+    }
+  }, {
+    "player_id" : 5552,
+    "player_name" : "Marcelo Vieira da Silva Júnior",
+    "player_nickname" : "Marcelo",
+    "jersey_number" : 12,
+    "country" : {
+      "id" : 31,
+      "name" : "Brazil"
+    }
+  }, {
+    "player_id" : 5553,
+    "player_name" : "Renato Soares de Oliveira Augusto",
+    "player_nickname" : "Renato Augusto",
+    "jersey_number" : 8,
+    "country" : {
+      "id" : 31,
+      "name" : "Brazil"
+    }
+  }, {
+    "player_id" : 5838,
+    "player_name" : "Fágner Conserva Lemos",
+    "player_nickname" : "Fágner",
+    "jersey_number" : 22,
+    "country" : {
+      "id" : 31,
+      "name" : "Brazil"
+    }
+  }, {
+    "player_id" : 6320,
+    "player_name" : "Filipe Luis Kasmirski",
+    "player_nickname" : "Filipe Luis",
+    "jersey_number" : 6,
+    "country" : {
+      "id" : 31,
+      "name" : "Brazil"
+    }
+  } ]
+}, {
+  "team_id" : 786,
+  "team_name" : "Serbia",
+  "lineup" : [ {
+    "player_id" : 3381,
+    "player_name" : "Nemanja Matić",
+    "player_nickname" : null,
+    "jersey_number" : 21,
+    "country" : {
+      "id" : 203,
+      "name" : "Serbia"
+    }
+  }, {
+    "player_id" : 3831,
+    "player_name" : "Dušan Tadić",
+    "player_nickname" : null,
+    "jersey_number" : 10,
+    "country" : {
+      "id" : 203,
+      "name" : "Serbia"
+    }
+  }, {
+    "player_id" : 4269,
+    "player_name" : "Aleksandar Mitrović",
+    "player_nickname" : null,
+    "jersey_number" : 9,
+    "country" : {
+      "id" : 203,
+      "name" : "Serbia"
+    }
+  }, {
+    "player_id" : 5587,
+    "player_name" : "Adem Ljajić",
+    "player_nickname" : null,
+    "jersey_number" : 22,
+    "country" : {
+      "id" : 203,
+      "name" : "Serbia"
+    }
+  }, {
+    "player_id" : 5588,
+    "player_name" : "Antonio Rukavina",
+    "player_nickname" : null,
+    "jersey_number" : 2,
+    "country" : {
+      "id" : 203,
+      "name" : "Serbia"
+    }
+  }, {
+    "player_id" : 5589,
+    "player_name" : "Sergej Milinković-Savić",
+    "player_nickname" : null,
+    "jersey_number" : 20,
+    "country" : {
+      "id" : 203,
+      "name" : "Serbia"
+    }
+  }, {
+    "player_id" : 5591,
+    "player_name" : "Filip Kostić",
+    "player_nickname" : null,
+    "jersey_number" : 17,
+    "country" : {
+      "id" : 203,
+      "name" : "Serbia"
+    }
+  }, {
+    "player_id" : 5596,
+    "player_name" : "Aleksandar Kolarov",
+    "player_nickname" : null,
+    "jersey_number" : 11,
+    "country" : {
+      "id" : 203,
+      "name" : "Serbia"
+    }
+  }, {
+    "player_id" : 5601,
+    "player_name" : "Vladimir Stojković",
+    "player_nickname" : null,
+    "jersey_number" : 1,
+    "country" : {
+      "id" : 203,
+      "name" : "Serbia"
+    }
+  }, {
+    "player_id" : 5603,
+    "player_name" : "Nikola Milenković",
+    "player_nickname" : null,
+    "jersey_number" : 15,
+    "country" : {
+      "id" : 203,
+      "name" : "Serbia"
+    }
+  }, {
+    "player_id" : 5833,
+    "player_name" : "Nemanja Radonjić",
+    "player_nickname" : null,
+    "jersey_number" : 18,
+    "country" : {
+      "id" : 203,
+      "name" : "Serbia"
+    }
+  }, {
+    "player_id" : 6318,
+    "player_name" : "Andrija Živković",
+    "player_nickname" : null,
+    "jersey_number" : 7,
+    "country" : {
+      "id" : 203,
+      "name" : "Serbia"
+    }
+  }, {
+    "player_id" : 6319,
+    "player_name" : "Luka Jović",
+    "player_nickname" : null,
+    "jersey_number" : 19,
+    "country" : {
+      "id" : 203,
+      "name" : "Serbia"
+    }
+  }, {
+    "player_id" : 6321,
+    "player_name" : "Milos Veljkovic",
+    "player_nickname" : null,
+    "jersey_number" : 13,
+    "country" : {
+      "id" : 203,
+      "name" : "Serbia"
+    }
+  } ]
+} ]

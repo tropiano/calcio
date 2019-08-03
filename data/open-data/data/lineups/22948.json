@@ -1,0 +1,244 @@
+[ {
+  "team_id" : 852,
+  "team_name" : "Norway Women's",
+  "lineup" : [ {
+    "player_id" : 4636,
+    "player_name" : "Maria Thorisdottir",
+    "player_nickname" : null,
+    "jersey_number" : 3,
+    "country" : {
+      "id" : 171,
+      "name" : "Norway"
+    }
+  }, {
+    "player_id" : 10382,
+    "player_name" : "Ingrid Moe Wold",
+    "player_nickname" : null,
+    "jersey_number" : 2,
+    "country" : {
+      "id" : 171,
+      "name" : "Norway"
+    }
+  }, {
+    "player_id" : 10386,
+    "player_name" : "Caroline Graham Hansen",
+    "player_nickname" : null,
+    "jersey_number" : 10,
+    "country" : {
+      "id" : 171,
+      "name" : "Norway"
+    }
+  }, {
+    "player_id" : 10387,
+    "player_name" : "Lisa-Marie Utland",
+    "player_nickname" : "Karlseng",
+    "jersey_number" : 11,
+    "country" : {
+      "id" : 171,
+      "name" : "Norway"
+    }
+  }, {
+    "player_id" : 10393,
+    "player_name" : "Kristine Minde",
+    "player_nickname" : null,
+    "jersey_number" : 17,
+    "country" : {
+      "id" : 171,
+      "name" : "Norway"
+    }
+  }, {
+    "player_id" : 10394,
+    "player_name" : "Ingrid Hjelmseth",
+    "player_nickname" : null,
+    "jersey_number" : 1,
+    "country" : {
+      "id" : 171,
+      "name" : "Norway"
+    }
+  }, {
+    "player_id" : 10395,
+    "player_name" : "Maren Nævdal Mjelde",
+    "player_nickname" : "Maren Mjelde",
+    "jersey_number" : 6,
+    "country" : {
+      "id" : 171,
+      "name" : "Norway"
+    }
+  }, {
+    "player_id" : 10514,
+    "player_name" : "Guro Reiten",
+    "player_nickname" : null,
+    "jersey_number" : 16,
+    "country" : {
+      "id" : 171,
+      "name" : "Norway"
+    }
+  }, {
+    "player_id" : 10516,
+    "player_name" : "Frida Maanum",
+    "player_nickname" : null,
+    "jersey_number" : 18,
+    "country" : {
+      "id" : 171,
+      "name" : "Norway"
+    }
+  }, {
+    "player_id" : 13479,
+    "player_name" : "Isabell Herlovsen",
+    "player_nickname" : null,
+    "jersey_number" : 9,
+    "country" : {
+      "id" : 171,
+      "name" : "Norway"
+    }
+  }, {
+    "player_id" : 24373,
+    "player_name" : "Synne Skinnes Hansen",
+    "player_nickname" : null,
+    "jersey_number" : 5,
+    "country" : {
+      "id" : 171,
+      "name" : "Norway"
+    }
+  }, {
+    "player_id" : 24374,
+    "player_name" : "Ingrid Syrstad Engen",
+    "player_nickname" : null,
+    "jersey_number" : 14,
+    "country" : {
+      "id" : 171,
+      "name" : "Norway"
+    }
+  }, {
+    "player_id" : 25466,
+    "player_name" : "Vilde Bøe Risa",
+    "player_nickname" : null,
+    "jersey_number" : 8,
+    "country" : {
+      "id" : 171,
+      "name" : "Norway"
+    }
+  }, {
+    "player_id" : 25728,
+    "player_name" : "Karina Sævik",
+    "player_nickname" : null,
+    "jersey_number" : 21,
+    "country" : {
+      "id" : 171,
+      "name" : "Norway"
+    }
+  } ]
+}, {
+  "team_id" : 861,
+  "team_name" : "France Women's",
+  "lineup" : [ {
+    "player_id" : 10113,
+    "player_name" : "Gaëtane Thiney",
+    "player_nickname" : "Laure",
+    "jersey_number" : 17,
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    }
+  }, {
+    "player_id" : 10114,
+    "player_name" : "Elise Bussaglia",
+    "player_nickname" : null,
+    "jersey_number" : 15,
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    }
+  }, {
+    "player_id" : 10121,
+    "player_name" : "Eugénie Le Sommer",
+    "player_nickname" : "Eugénie Le Sommer",
+    "jersey_number" : 9,
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    }
+  }, {
+    "player_id" : 10123,
+    "player_name" : "Amandine Henry",
+    "player_nickname" : null,
+    "jersey_number" : 6,
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    }
+  }, {
+    "player_id" : 10125,
+    "player_name" : "Wendie Renard",
+    "player_nickname" : null,
+    "jersey_number" : 3,
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    }
+  }, {
+    "player_id" : 10129,
+    "player_name" : "Sarah Bouhaddi",
+    "player_nickname" : null,
+    "jersey_number" : 16,
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    }
+  }, {
+    "player_id" : 10137,
+    "player_name" : "Kadidiatou Diani",
+    "player_nickname" : null,
+    "jersey_number" : 11,
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    }
+  }, {
+    "player_id" : 10271,
+    "player_name" : "Griedge Mbock Bathy Nka",
+    "player_nickname" : "Griedge Mbock Bathy",
+    "jersey_number" : 19,
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    }
+  }, {
+    "player_id" : 15249,
+    "player_name" : "Amel Majri",
+    "player_nickname" : null,
+    "jersey_number" : 10
+  }, {
+    "player_id" : 15470,
+    "player_name" : "Delphine Cascarino",
+    "player_nickname" : null,
+    "jersey_number" : 20
+  }, {
+    "player_id" : 25442,
+    "player_name" : "Valérie Gauvin",
+    "player_nickname" : null,
+    "jersey_number" : 13,
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    }
+  }, {
+    "player_id" : 25446,
+    "player_name" : "Marion Torrent",
+    "player_nickname" : null,
+    "jersey_number" : 4,
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    }
+  }, {
+    "player_id" : 25727,
+    "player_name" : "Charlotte Bilbault",
+    "player_nickname" : null,
+    "jersey_number" : 14,
+    "country" : {
+      "id" : 78,
+      "name" : "France"
+    }
+  } ]
+} ]

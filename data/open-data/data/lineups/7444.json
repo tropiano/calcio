@@ -1,0 +1,261 @@
+[ {
+  "team_id" : 761,
+  "team_name" : "Chicago Red Stars",
+  "lineup" : [ {
+    "player_id" : 4942,
+    "player_name" : "Arin Gilliland",
+    "player_nickname" : null,
+    "jersey_number" : 3,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 4947,
+    "player_name" : "Danielle Colaprico",
+    "player_nickname" : null,
+    "jersey_number" : 24,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 4953,
+    "player_name" : "Alyssa Mautz",
+    "player_nickname" : null,
+    "jersey_number" : 4,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 4955,
+    "player_name" : "Sarah Gorden",
+    "player_nickname" : null,
+    "jersey_number" : 14,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 4957,
+    "player_name" : "Lauren Kaskie",
+    "player_nickname" : null,
+    "jersey_number" : 13,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 4959,
+    "player_name" : "Taylor Comeau",
+    "player_nickname" : null,
+    "jersey_number" : 7,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 4961,
+    "player_name" : "Samantha Kerr",
+    "player_nickname" : null,
+    "jersey_number" : 20,
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  }, {
+    "player_id" : 4963,
+    "player_name" : "Yuki Nagasato",
+    "player_nickname" : null,
+    "jersey_number" : 12,
+    "country" : {
+      "id" : 114,
+      "name" : "Japan"
+    }
+  }, {
+    "player_id" : 4965,
+    "player_name" : "Nikki Stanton",
+    "player_nickname" : null,
+    "jersey_number" : 2,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5100,
+    "player_name" : "Alyssa Naeher",
+    "player_nickname" : null,
+    "jersey_number" : 1,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5101,
+    "player_name" : "Samantha Johnson",
+    "player_nickname" : null,
+    "jersey_number" : 16,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5103,
+    "player_name" : "Michele Vasconcelos",
+    "player_nickname" : null,
+    "jersey_number" : 15,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5104,
+    "player_name" : "Summer Green",
+    "player_nickname" : null,
+    "jersey_number" : 19,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5105,
+    "player_name" : "Sofia Huerta",
+    "player_nickname" : null,
+    "jersey_number" : 11,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  } ]
+}, {
+  "team_id" : 766,
+  "team_name" : "North Carolina Courage",
+  "lineup" : [ {
+    "player_id" : 5034,
+    "player_name" : "Jessica McDonald",
+    "player_nickname" : null,
+    "jersey_number" : 14,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5036,
+    "player_name" : "Darian Jenkins",
+    "player_nickname" : null,
+    "jersey_number" : 21,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5037,
+    "player_name" : "Abby Erceg",
+    "player_nickname" : null,
+    "jersey_number" : 6,
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  }, {
+    "player_id" : 5044,
+    "player_name" : "Débora Cristiane de Oliveira",
+    "player_nickname" : "Debinha",
+    "jersey_number" : 10,
+    "country" : {
+      "id" : 31,
+      "name" : "Brazil"
+    }
+  }, {
+    "player_id" : 5047,
+    "player_name" : "Jaelene Hinkle",
+    "player_nickname" : null,
+    "jersey_number" : 15,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5055,
+    "player_name" : "Lynn Williams",
+    "player_nickname" : null,
+    "jersey_number" : 9,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5080,
+    "player_name" : "Kristen Hamilton",
+    "player_nickname" : null,
+    "jersey_number" : 23,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5081,
+    "player_name" : "Abby Dahlkemper",
+    "player_nickname" : null,
+    "jersey_number" : 13,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5083,
+    "player_name" : "Merritt Mathias",
+    "player_nickname" : null,
+    "jersey_number" : 11,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5084,
+    "player_name" : "Denise O'Sullivan",
+    "player_nickname" : null,
+    "jersey_number" : 8,
+    "country" : {
+      "id" : 109,
+      "name" : "Ireland"
+    }
+  }, {
+    "player_id" : 5087,
+    "player_name" : "Samantha Mewis",
+    "player_nickname" : null,
+    "jersey_number" : 5,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5088,
+    "player_name" : "Crystal Alyssia Dunn",
+    "player_nickname" : "Crystal Dunn",
+    "jersey_number" : 19,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5091,
+    "player_name" : "McCall Zerboni",
+    "player_nickname" : null,
+    "jersey_number" : 7,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5102,
+    "player_name" : "Sabrina D’Angelo",
+    "player_nickname" : null,
+    "jersey_number" : 1,
+    "country" : {
+      "id" : 40,
+      "name" : "Canada"
+    }
+  } ]
+} ]

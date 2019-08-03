@@ -1,0 +1,252 @@
+[ {
+  "team_id" : 858,
+  "team_name" : "Sweden Women's",
+  "lineup" : [ {
+    "player_id" : 4633,
+    "player_name" : "Magdalena Ericsson",
+    "player_nickname" : null,
+    "jersey_number" : 6,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 4640,
+    "player_name" : "Rut Hedvig Lindahl",
+    "player_nickname" : "Hedvig Lindahl",
+    "jersey_number" : 1,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 10215,
+    "player_name" : "Fridolina Rolfö",
+    "player_nickname" : null,
+    "jersey_number" : 18,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 10220,
+    "player_name" : "Kosovare Asllani",
+    "player_nickname" : null,
+    "jersey_number" : 9,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 10221,
+    "player_name" : "Elin Ingrid Johanna Rubensson",
+    "player_nickname" : "Elin Rubensson",
+    "jersey_number" : 23,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 10224,
+    "player_name" : "Sara Caroline Seger",
+    "player_nickname" : null,
+    "jersey_number" : 17,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 10229,
+    "player_name" : "Stina Blackstenius",
+    "player_nickname" : null,
+    "jersey_number" : 11,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 10230,
+    "player_name" : "Linda Brigitta Sembrant",
+    "player_nickname" : "Linda Sembrant",
+    "jersey_number" : 3,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 10375,
+    "player_name" : "Nilla Fischer",
+    "player_nickname" : null,
+    "jersey_number" : 5,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 13881,
+    "player_name" : "Eva Sofia Jakobsson",
+    "player_nickname" : null,
+    "jersey_number" : 10,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 24693,
+    "player_name" : "Hanna Glas",
+    "player_nickname" : null,
+    "jersey_number" : 4,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 25696,
+    "player_name" : "Madelen Janogy",
+    "player_nickname" : null,
+    "jersey_number" : 7,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 25697,
+    "player_name" : "Lina Hurtig",
+    "player_nickname" : null,
+    "jersey_number" : 8,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 25698,
+    "player_name" : "Anna Anvegård",
+    "player_nickname" : null,
+    "jersey_number" : 19,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  } ]
+}, {
+  "team_id" : 1209,
+  "team_name" : "Chile Women's",
+  "lineup" : [ {
+    "player_id" : 24462,
+    "player_name" : "Claudia Christiane Endler Mutinelli",
+    "player_nickname" : null,
+    "jersey_number" : 1,
+    "country" : {
+      "id" : 45,
+      "name" : "Chile"
+    }
+  }, {
+    "player_id" : 25684,
+    "player_name" : "Rocio Andrea Soto Collao",
+    "player_nickname" : null,
+    "jersey_number" : 2,
+    "country" : {
+      "id" : 45,
+      "name" : "Chile"
+    }
+  }, {
+    "player_id" : 25685,
+    "player_name" : "Yesenia López",
+    "player_nickname" : null,
+    "jersey_number" : 11,
+    "country" : {
+      "id" : 45,
+      "name" : "Chile"
+    }
+  }, {
+    "player_id" : 25686,
+    "player_name" : "Yanara Aedo",
+    "player_nickname" : null,
+    "jersey_number" : 10,
+    "country" : {
+      "id" : 45,
+      "name" : "Chile"
+    }
+  }, {
+    "player_id" : 25687,
+    "player_name" : "Camila Alejandra Saez Oyaneder",
+    "player_nickname" : null,
+    "jersey_number" : 18,
+    "country" : {
+      "id" : 45,
+      "name" : "Chile"
+    }
+  }, {
+    "player_id" : 25688,
+    "player_name" : "Javiera Toro",
+    "player_nickname" : null,
+    "jersey_number" : 17,
+    "country" : {
+      "id" : 45,
+      "name" : "Chile"
+    }
+  }, {
+    "player_id" : 25689,
+    "player_name" : "Rosario Balmaceda",
+    "player_nickname" : null,
+    "jersey_number" : 21,
+    "country" : {
+      "id" : 45,
+      "name" : "Chile"
+    }
+  }, {
+    "player_id" : 25690,
+    "player_name" : "Francisca Alejandra Lara Lara",
+    "player_nickname" : null,
+    "jersey_number" : 4,
+    "country" : {
+      "id" : 45,
+      "name" : "Chile"
+    }
+  }, {
+    "player_id" : 25691,
+    "player_name" : "Su Helen Ignacia Galaz Espinoza",
+    "player_nickname" : null,
+    "jersey_number" : 15,
+    "country" : {
+      "id" : 45,
+      "name" : "Chile"
+    }
+  }, {
+    "player_id" : 25692,
+    "player_name" : "Carla Valentina Guerrero Puelle",
+    "player_nickname" : null,
+    "jersey_number" : 3,
+    "country" : {
+      "id" : 45,
+      "name" : "Chile"
+    }
+  }, {
+    "player_id" : 25693,
+    "player_name" : "Karen Araya",
+    "player_nickname" : null,
+    "jersey_number" : 8,
+    "country" : {
+      "id" : 45,
+      "name" : "Chile"
+    }
+  }, {
+    "player_id" : 25694,
+    "player_name" : "María José Urrutia",
+    "player_nickname" : null,
+    "jersey_number" : 9,
+    "country" : {
+      "id" : 45,
+      "name" : "Chile"
+    }
+  }, {
+    "player_id" : 25695,
+    "player_name" : "Daniela Paz Zamora Mancilla",
+    "player_nickname" : null,
+    "jersey_number" : 20,
+    "country" : {
+      "id" : 45,
+      "name" : "Chile"
+    }
+  } ]
+} ]

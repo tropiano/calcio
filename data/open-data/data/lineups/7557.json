@@ -1,0 +1,261 @@
+[ {
+  "team_id" : 780,
+  "team_name" : "Portugal",
+  "lineup" : [ {
+    "player_id" : 3168,
+    "player_name" : "João Filipe Iria Santos Moutinho",
+    "player_nickname" : "João Moutinho",
+    "jersey_number" : 8,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 3193,
+    "player_name" : "Bernardo Mota Veiga de Carvalho e Silva",
+    "player_nickname" : "Bernardo Silva",
+    "jersey_number" : 11,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 3329,
+    "player_name" : "Cédric Ricardo Alves Soares",
+    "player_nickname" : "Cédric Soares",
+    "jersey_number" : 21,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 3707,
+    "player_name" : "Adrien Sebastian Perruchet Silva",
+    "player_nickname" : "Adrien Silva",
+    "jersey_number" : 23,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 3960,
+    "player_name" : "José Miguel da Rocha Fonte",
+    "player_nickname" : "José Fonte",
+    "jersey_number" : 6,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 4272,
+    "player_name" : "João Mário Naval da Costa Eduardo",
+    "player_nickname" : "João Mário",
+    "jersey_number" : 10,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 4367,
+    "player_name" : "Gonçalo Manuel Ganchinho Guedes",
+    "player_nickname" : "Gonçalo Guedes",
+    "jersey_number" : 17,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 5205,
+    "player_name" : "Rui Pedro dos Santos Patrício",
+    "player_nickname" : "Rui Patrício",
+    "jersey_number" : 1,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 5207,
+    "player_name" : "Cristiano Ronaldo dos Santos Aveiro",
+    "player_nickname" : "Cristiano Ronaldo",
+    "jersey_number" : 7,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 5209,
+    "player_name" : "Raphaël Adelino José Guerreiro",
+    "player_nickname" : "Raphaël Guerreiro",
+    "jersey_number" : 5,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 5214,
+    "player_name" : "William Silva de Carvalho",
+    "player_nickname" : "William Carvalho",
+    "jersey_number" : 14,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 5215,
+    "player_name" : "Ricardo Andrade Quaresma Bernardo",
+    "player_nickname" : "Ricardo Quaresma",
+    "jersey_number" : 20,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 5218,
+    "player_name" : "André Miguel Valente Silva",
+    "player_nickname" : "André Silva",
+    "jersey_number" : 9,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 20016,
+    "player_name" : "Kléper Laveran Lima Ferreira",
+    "player_nickname" : "De Lima Ferreira",
+    "jersey_number" : 3,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  } ]
+}, {
+  "team_id" : 797,
+  "team_name" : "Iran",
+  "lineup" : [ {
+    "player_id" : 5220,
+    "player_name" : "Morteza Pouraliganji",
+    "player_nickname" : null,
+    "jersey_number" : 8,
+    "country" : {
+      "id" : 107,
+      "name" : "Iran, Islamic Republic of"
+    }
+  }, {
+    "player_id" : 5224,
+    "player_name" : "Sardar Azmoun",
+    "player_nickname" : null,
+    "jersey_number" : 20,
+    "country" : {
+      "id" : 107,
+      "name" : "Iran, Islamic Republic of"
+    }
+  }, {
+    "player_id" : 5225,
+    "player_name" : "Omid Ebrahimi",
+    "player_nickname" : null,
+    "jersey_number" : 9,
+    "country" : {
+      "id" : 107,
+      "name" : "Iran, Islamic Republic of"
+    }
+  }, {
+    "player_id" : 5226,
+    "player_name" : "Mehdi Taremi",
+    "player_nickname" : null,
+    "jersey_number" : 17,
+    "country" : {
+      "id" : 107,
+      "name" : "Iran, Islamic Republic of"
+    }
+  }, {
+    "player_id" : 5227,
+    "player_name" : "Alireza Safar Beiranvand",
+    "player_nickname" : "Alireza Beiranvand",
+    "jersey_number" : 1,
+    "country" : {
+      "id" : 107,
+      "name" : "Iran, Islamic Republic of"
+    }
+  }, {
+    "player_id" : 5228,
+    "player_name" : "Seyed Majid Hosseini",
+    "player_nickname" : "Majid Hosseini",
+    "jersey_number" : 19,
+    "country" : {
+      "id" : 107,
+      "name" : "Iran, Islamic Republic of"
+    }
+  }, {
+    "player_id" : 5230,
+    "player_name" : "Ehsan Hajsafi",
+    "player_nickname" : null,
+    "jersey_number" : 3,
+    "country" : {
+      "id" : 107,
+      "name" : "Iran, Islamic Republic of"
+    }
+  }, {
+    "player_id" : 5231,
+    "player_name" : "Karim Ansarifard",
+    "player_nickname" : null,
+    "jersey_number" : 10,
+    "country" : {
+      "id" : 107,
+      "name" : "Iran, Islamic Republic of"
+    }
+  }, {
+    "player_id" : 5235,
+    "player_name" : "Ramin Rezaeian",
+    "player_nickname" : null,
+    "jersey_number" : 23,
+    "country" : {
+      "id" : 107,
+      "name" : "Iran, Islamic Republic of"
+    }
+  }, {
+    "player_id" : 5239,
+    "player_name" : "Alireza Jahanbakhsh",
+    "player_nickname" : null,
+    "jersey_number" : 18,
+    "country" : {
+      "id" : 107,
+      "name" : "Iran, Islamic Republic of"
+    }
+  }, {
+    "player_id" : 5240,
+    "player_name" : "Saman Ghoddos",
+    "player_nickname" : null,
+    "jersey_number" : 14,
+    "country" : {
+      "id" : 107,
+      "name" : "Iran, Islamic Republic of"
+    }
+  }, {
+    "player_id" : 5241,
+    "player_name" : "Vahid Amiri",
+    "player_nickname" : null,
+    "jersey_number" : 11,
+    "country" : {
+      "id" : 107,
+      "name" : "Iran, Islamic Republic of"
+    }
+  }, {
+    "player_id" : 5720,
+    "player_name" : "Milad Mohammadi",
+    "player_nickname" : null,
+    "jersey_number" : 5,
+    "country" : {
+      "id" : 107,
+      "name" : "Iran, Islamic Republic of"
+    }
+  }, {
+    "player_id" : 5722,
+    "player_name" : "Saeid Ezatolahi Afagh",
+    "player_nickname" : "Saeid Ezatolahi",
+    "jersey_number" : 6,
+    "country" : {
+      "id" : 107,
+      "name" : "Iran, Islamic Republic of"
+    }
+  } ]
+} ]

@@ -1,0 +1,230 @@
+[ {
+  "team_id" : 972,
+  "team_name" : "West Ham United LFC",
+  "lineup" : [ {
+    "player_id" : 4653,
+    "player_name" : "Jane Ross",
+    "player_nickname" : null,
+    "jersey_number" : 9,
+    "country" : {
+      "id" : 201,
+      "name" : "Scotland"
+    }
+  }, {
+    "player_id" : 8297,
+    "player_name" : "Adriana Leon",
+    "player_nickname" : null,
+    "jersey_number" : 19,
+    "country" : {
+      "id" : 40,
+      "name" : "Canada"
+    }
+  }, {
+    "player_id" : 18145,
+    "player_name" : "Ria Percival",
+    "player_nickname" : null,
+    "jersey_number" : 2,
+    "country" : {
+      "id" : 163,
+      "name" : "New Zealand"
+    }
+  }, {
+    "player_id" : 18146,
+    "player_name" : "Leanne Kiernan",
+    "player_nickname" : null,
+    "jersey_number" : 8,
+    "country" : {
+      "id" : 109,
+      "name" : "Ireland"
+    }
+  }, {
+    "player_id" : 18153,
+    "player_name" : "Alisha Lehmann",
+    "player_nickname" : null,
+    "jersey_number" : 7,
+    "country" : {
+      "id" : 221,
+      "name" : "Switzerland"
+    }
+  }, {
+    "player_id" : 18155,
+    "player_name" : "Erin Simon",
+    "player_nickname" : null,
+    "jersey_number" : 3,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 18156,
+    "player_name" : "Claire Lauren Rafferty",
+    "player_nickname" : "Claire Rafferty",
+    "jersey_number" : 11,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }, {
+    "player_id" : 18157,
+    "player_name" : "Brianna Visalli",
+    "player_nickname" : null,
+    "jersey_number" : 15,
+    "country" : {
+      "id" : 109,
+      "name" : "Ireland"
+    }
+  }, {
+    "player_id" : 18158,
+    "player_name" : "Rebecca Leigh Spencer",
+    "player_nickname" : "Rebecca Spencer",
+    "jersey_number" : 1,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }, {
+    "player_id" : 18159,
+    "player_name" : "Brooke Hendrix",
+    "player_nickname" : null,
+    "jersey_number" : 4,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }, {
+    "player_id" : 19896,
+    "player_name" : "Rosie Kmita",
+    "player_nickname" : null,
+    "jersey_number" : 16,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }, {
+    "player_id" : 21014,
+    "player_name" : "Vyan Sampson",
+    "player_nickname" : null,
+    "jersey_number" : 14,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  } ]
+}, {
+  "team_id" : 973,
+  "team_name" : "Bristol City WFC",
+  "lineup" : [ {
+    "player_id" : 10095,
+    "player_name" : "Julie Biesmans",
+    "player_nickname" : null,
+    "jersey_number" : 20,
+    "country" : {
+      "id" : 22,
+      "name" : "Belgium"
+    }
+  }, {
+    "player_id" : 10171,
+    "player_name" : "Frankie Brown",
+    "player_nickname" : "Fantom",
+    "jersey_number" : 5,
+    "country" : {
+      "id" : 201,
+      "name" : "Scotland"
+    }
+  }, {
+    "player_id" : 16376,
+    "player_name" : "Sophie Baggaley",
+    "player_nickname" : null,
+    "jersey_number" : 1,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }, {
+    "player_id" : 16381,
+    "player_name" : "Gemma Evans",
+    "player_nickname" : null,
+    "jersey_number" : 3,
+    "country" : {
+      "id" : 249,
+      "name" : "Wales"
+    }
+  }, {
+    "player_id" : 16382,
+    "player_name" : "Heather Payne",
+    "player_nickname" : null,
+    "jersey_number" : 16,
+    "country" : {
+      "id" : 109,
+      "name" : "Ireland"
+    }
+  }, {
+    "player_id" : 16384,
+    "player_name" : "Carla Humphrey",
+    "player_nickname" : null,
+    "jersey_number" : 8,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }, {
+    "player_id" : 16386,
+    "player_name" : "Lucy Graham",
+    "player_nickname" : null,
+    "jersey_number" : 14,
+    "country" : {
+      "id" : 201,
+      "name" : "Scotland"
+    }
+  }, {
+    "player_id" : 16388,
+    "player_name" : "Ella Rutherford",
+    "player_nickname" : null,
+    "jersey_number" : 10,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }, {
+    "player_id" : 17274,
+    "player_name" : "Poppy Pattinson",
+    "player_nickname" : null,
+    "jersey_number" : 7,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }, {
+    "player_id" : 21048,
+    "player_name" : "Rosella Ayane",
+    "player_nickname" : null,
+    "jersey_number" : 17,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }, {
+    "player_id" : 21059,
+    "player_name" : "Katie Robinson",
+    "player_nickname" : null,
+    "jersey_number" : 23
+  }, {
+    "player_id" : 23412,
+    "player_name" : "Abigail Harrison",
+    "player_nickname" : null,
+    "jersey_number" : 15,
+    "country" : {
+      "id" : 201,
+      "name" : "Scotland"
+    }
+  }, {
+    "player_id" : 24922,
+    "player_name" : "Florence Allen",
+    "player_nickname" : null,
+    "jersey_number" : 12,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  } ]
+} ]

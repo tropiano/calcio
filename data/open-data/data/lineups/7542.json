@@ -1,0 +1,261 @@
+[ {
+  "team_id" : 780,
+  "team_name" : "Portugal",
+  "lineup" : [ {
+    "player_id" : 3168,
+    "player_name" : "João Filipe Iria Santos Moutinho",
+    "player_nickname" : "João Moutinho",
+    "jersey_number" : 8,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 3193,
+    "player_name" : "Bernardo Mota Veiga de Carvalho e Silva",
+    "player_nickname" : "Bernardo Silva",
+    "jersey_number" : 11,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 3329,
+    "player_name" : "Cédric Ricardo Alves Soares",
+    "player_nickname" : "Cédric Soares",
+    "jersey_number" : 21,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 3707,
+    "player_name" : "Adrien Sebastian Perruchet Silva",
+    "player_nickname" : "Adrien Silva",
+    "jersey_number" : 23,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 3960,
+    "player_name" : "José Miguel da Rocha Fonte",
+    "player_nickname" : "José Fonte",
+    "jersey_number" : 6,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 4272,
+    "player_name" : "João Mário Naval da Costa Eduardo",
+    "player_nickname" : "João Mário",
+    "jersey_number" : 10,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 4367,
+    "player_name" : "Gonçalo Manuel Ganchinho Guedes",
+    "player_nickname" : "Gonçalo Guedes",
+    "jersey_number" : 17,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 5204,
+    "player_name" : "Bruno Miguel Borges Fernandes",
+    "player_nickname" : "Bruno Fernandes",
+    "jersey_number" : 16,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 5205,
+    "player_name" : "Rui Pedro dos Santos Patrício",
+    "player_nickname" : "Rui Patrício",
+    "jersey_number" : 1,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 5207,
+    "player_name" : "Cristiano Ronaldo dos Santos Aveiro",
+    "player_nickname" : "Cristiano Ronaldo",
+    "jersey_number" : 7,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 5209,
+    "player_name" : "Raphaël Adelino José Guerreiro",
+    "player_nickname" : "Raphaël Guerreiro",
+    "jersey_number" : 5,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 5214,
+    "player_name" : "William Silva de Carvalho",
+    "player_nickname" : "William Carvalho",
+    "jersey_number" : 14,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 5723,
+    "player_name" : "Gelson Dany Batalha Martins",
+    "player_nickname" : "Gelson Martins",
+    "jersey_number" : 18,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  }, {
+    "player_id" : 20016,
+    "player_name" : "Kléper Laveran Lima Ferreira",
+    "player_nickname" : "De Lima Ferreira",
+    "jersey_number" : 3,
+    "country" : {
+      "id" : 183,
+      "name" : "Portugal"
+    }
+  } ]
+}, {
+  "team_id" : 788,
+  "team_name" : "Morocco",
+  "lineup" : [ {
+    "player_id" : 3302,
+    "player_name" : "Nordin Amrabat",
+    "player_nickname" : null,
+    "jersey_number" : 16,
+    "country" : {
+      "id" : 154,
+      "name" : "Morocco"
+    }
+  }, {
+    "player_id" : 5221,
+    "player_name" : "Manuel Marouan da Costa Trinidade",
+    "player_nickname" : "Manuel da Costa",
+    "jersey_number" : 4,
+    "country" : {
+      "id" : 154,
+      "name" : "Morocco"
+    }
+  }, {
+    "player_id" : 5229,
+    "player_name" : "Ayoub El Kaabi",
+    "player_nickname" : null,
+    "jersey_number" : 9,
+    "country" : {
+      "id" : 154,
+      "name" : "Morocco"
+    }
+  }, {
+    "player_id" : 5232,
+    "player_name" : "Mbark Boussoufa",
+    "player_nickname" : null,
+    "jersey_number" : 14,
+    "country" : {
+      "id" : 154,
+      "name" : "Morocco"
+    }
+  }, {
+    "player_id" : 5233,
+    "player_name" : "Munir Mohand Mohamedi",
+    "player_nickname" : "Munir",
+    "jersey_number" : 12,
+    "country" : {
+      "id" : 154,
+      "name" : "Morocco"
+    }
+  }, {
+    "player_id" : 5236,
+    "player_name" : "Karim El Ahmadi Al Aroos",
+    "player_nickname" : "Karim El Ahmadi",
+    "jersey_number" : 8,
+    "country" : {
+      "id" : 154,
+      "name" : "Morocco"
+    }
+  }, {
+    "player_id" : 5237,
+    "player_name" : "Hakim Ziyech",
+    "player_nickname" : null,
+    "jersey_number" : 7,
+    "country" : {
+      "id" : 154,
+      "name" : "Morocco"
+    }
+  }, {
+    "player_id" : 5242,
+    "player_name" : "Younès Belhanda",
+    "player_nickname" : null,
+    "jersey_number" : 10,
+    "country" : {
+      "id" : 154,
+      "name" : "Morocco"
+    }
+  }, {
+    "player_id" : 5244,
+    "player_name" : "Medhi Amine El Mouttaqi Benatia",
+    "player_nickname" : "Medhi Benatia",
+    "jersey_number" : 5,
+    "country" : {
+      "id" : 154,
+      "name" : "Morocco"
+    }
+  }, {
+    "player_id" : 5245,
+    "player_name" : "Achraf Hakimi Mouh",
+    "player_nickname" : "Achraf Hakimi",
+    "jersey_number" : 2,
+    "country" : {
+      "id" : 154,
+      "name" : "Morocco"
+    }
+  }, {
+    "player_id" : 5724,
+    "player_name" : "Fayçal Fajr",
+    "player_nickname" : null,
+    "jersey_number" : 11,
+    "country" : {
+      "id" : 154,
+      "name" : "Morocco"
+    }
+  }, {
+    "player_id" : 5725,
+    "player_name" : "Mehdi Carcela-González",
+    "player_nickname" : null,
+    "jersey_number" : 23,
+    "country" : {
+      "id" : 154,
+      "name" : "Morocco"
+    }
+  }, {
+    "player_id" : 5726,
+    "player_name" : "Khalid Boutaïb",
+    "player_nickname" : null,
+    "jersey_number" : 13,
+    "country" : {
+      "id" : 154,
+      "name" : "Morocco"
+    }
+  }, {
+    "player_id" : 5727,
+    "player_name" : "Nabil Dirar",
+    "player_nickname" : null,
+    "jersey_number" : 17,
+    "country" : {
+      "id" : 154,
+      "name" : "Morocco"
+    }
+  } ]
+} ]

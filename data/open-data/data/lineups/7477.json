@@ -1,0 +1,261 @@
+[ {
+  "team_id" : 767,
+  "team_name" : "Utah Royals",
+  "lineup" : [ {
+    "player_id" : 4966,
+    "player_name" : "Desiree Scott",
+    "player_nickname" : null,
+    "jersey_number" : 11,
+    "country" : {
+      "id" : 40,
+      "name" : "Canada"
+    }
+  }, {
+    "player_id" : 4971,
+    "player_name" : "Rebecca Moros",
+    "player_nickname" : null,
+    "jersey_number" : 3,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 4972,
+    "player_name" : "Katie Stengel",
+    "player_nickname" : null,
+    "jersey_number" : 24,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 4973,
+    "player_name" : "Diana Matheson",
+    "player_nickname" : null,
+    "jersey_number" : 10,
+    "country" : {
+      "id" : 40,
+      "name" : "Canada"
+    }
+  }, {
+    "player_id" : 4975,
+    "player_name" : "Gunnhildur Yrsa Jónsdóttir",
+    "player_nickname" : null,
+    "jersey_number" : 23,
+    "country" : {
+      "id" : 104,
+      "name" : "Iceland"
+    }
+  }, {
+    "player_id" : 4976,
+    "player_name" : "Lo’eau LaBonta",
+    "player_nickname" : null,
+    "jersey_number" : 9,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 4979,
+    "player_name" : "Katrina Gorry",
+    "player_nickname" : null,
+    "jersey_number" : 19,
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  }, {
+    "player_id" : 4984,
+    "player_name" : "Rachel Corsie",
+    "player_nickname" : null,
+    "jersey_number" : 2,
+    "country" : {
+      "id" : 201,
+      "name" : "Scotland"
+    }
+  }, {
+    "player_id" : 4987,
+    "player_name" : "Sydney Miramontez",
+    "player_nickname" : null,
+    "jersey_number" : 17,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5024,
+    "player_name" : "Amy Rodriguez",
+    "player_nickname" : null,
+    "jersey_number" : 8,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5030,
+    "player_name" : "Becky Sauerbrunn",
+    "player_nickname" : null,
+    "jersey_number" : 4,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5031,
+    "player_name" : "Abby Smith",
+    "player_nickname" : null,
+    "jersey_number" : 1,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5101,
+    "player_name" : "Samantha Johnson",
+    "player_nickname" : null,
+    "jersey_number" : 16,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 6817,
+    "player_name" : "Christen Press",
+    "player_nickname" : null,
+    "jersey_number" : 21,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  } ]
+}, {
+  "team_id" : 765,
+  "team_name" : "Portland Thorns",
+  "lineup" : [ {
+    "player_id" : 4995,
+    "player_name" : "Celeste Boureille",
+    "player_nickname" : null,
+    "jersey_number" : 30,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 4999,
+    "player_name" : "Lindsey Horan",
+    "player_nickname" : null,
+    "jersey_number" : 10,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5003,
+    "player_name" : "Emily Sonnett",
+    "player_nickname" : null,
+    "jersey_number" : 16,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5009,
+    "player_name" : "Margaret Purce",
+    "player_nickname" : null,
+    "jersey_number" : 23,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5010,
+    "player_name" : "Mallory Weber",
+    "player_nickname" : null,
+    "jersey_number" : 26,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5013,
+    "player_name" : "Tobin Heath",
+    "player_nickname" : null,
+    "jersey_number" : 17,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5020,
+    "player_name" : "Christine Sinclair",
+    "player_nickname" : null,
+    "jersey_number" : 12,
+    "country" : {
+      "id" : 40,
+      "name" : "Canada"
+    }
+  }, {
+    "player_id" : 5092,
+    "player_name" : "Emily Menges",
+    "player_nickname" : null,
+    "jersey_number" : 4,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5093,
+    "player_name" : "Tyler Lussi",
+    "player_nickname" : null,
+    "jersey_number" : 34,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 5095,
+    "player_name" : "Ellie Carpenter",
+    "player_nickname" : null,
+    "jersey_number" : 15,
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  }, {
+    "player_id" : 6816,
+    "player_name" : "Elizabeth Ball",
+    "player_nickname" : null,
+    "jersey_number" : 27,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 6818,
+    "player_name" : "Hayley Raso",
+    "player_nickname" : null,
+    "jersey_number" : 21,
+    "country" : {
+      "id" : 14,
+      "name" : "Australia"
+    }
+  }, {
+    "player_id" : 6819,
+    "player_name" : "Adrianna Franch",
+    "player_nickname" : null,
+    "jersey_number" : 24,
+    "country" : {
+      "id" : 241,
+      "name" : "United States of America"
+    }
+  }, {
+    "player_id" : 10408,
+    "player_name" : "Ana-Maria Crnogorcevic",
+    "player_nickname" : null,
+    "jersey_number" : 7,
+    "country" : {
+      "id" : 221,
+      "name" : "Switzerland"
+    }
+  } ]
+} ]

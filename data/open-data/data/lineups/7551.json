@@ -1,0 +1,261 @@
+[ {
+  "team_id" : 770,
+  "team_name" : "Germany",
+  "lineup" : [ {
+    "player_id" : 3167,
+    "player_name" : "Antonio Rüdiger",
+    "player_nickname" : null,
+    "jersey_number" : 16,
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    }
+  }, {
+    "player_id" : 3186,
+    "player_name" : "Julian Draxler",
+    "player_nickname" : null,
+    "jersey_number" : 7,
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    }
+  }, {
+    "player_id" : 5555,
+    "player_name" : "Julian Brandt",
+    "player_nickname" : null,
+    "jersey_number" : 20,
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    }
+  }, {
+    "player_id" : 5557,
+    "player_name" : "Timo Werner",
+    "player_nickname" : null,
+    "jersey_number" : 9,
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    }
+  }, {
+    "player_id" : 5559,
+    "player_name" : "Marco Reus",
+    "player_nickname" : null,
+    "jersey_number" : 11,
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    }
+  }, {
+    "player_id" : 5562,
+    "player_name" : "Thomas Müller",
+    "player_nickname" : null,
+    "jersey_number" : 13,
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    }
+  }, {
+    "player_id" : 5565,
+    "player_name" : "Mario Gómez García",
+    "player_nickname" : "Mario Gómez",
+    "jersey_number" : 23,
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    }
+  }, {
+    "player_id" : 5570,
+    "player_name" : "Manuel Neuer",
+    "player_nickname" : null,
+    "jersey_number" : 1,
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    }
+  }, {
+    "player_id" : 5574,
+    "player_name" : "Toni Kroos",
+    "player_nickname" : null,
+    "jersey_number" : 8,
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    }
+  }, {
+    "player_id" : 5578,
+    "player_name" : "Jérôme Boateng",
+    "player_nickname" : null,
+    "jersey_number" : 17,
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    }
+  }, {
+    "player_id" : 5579,
+    "player_name" : "Joshua Kimmich",
+    "player_nickname" : null,
+    "jersey_number" : 18,
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    }
+  }, {
+    "player_id" : 6039,
+    "player_name" : "Sebastian Rudy",
+    "player_nickname" : null,
+    "jersey_number" : 19,
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    }
+  }, {
+    "player_id" : 6040,
+    "player_name" : "Jonas Hector",
+    "player_nickname" : null,
+    "jersey_number" : 3,
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    }
+  }, {
+    "player_id" : 10287,
+    "player_name" : "İlkay Gündoğan",
+    "player_nickname" : null,
+    "jersey_number" : 21,
+    "country" : {
+      "id" : 85,
+      "name" : "Germany"
+    }
+  } ]
+}, {
+  "team_id" : 790,
+  "team_name" : "Sweden",
+  "lineup" : [ {
+    "player_id" : 3702,
+    "player_name" : "Victor Nilsson Lindelöf",
+    "player_nickname" : "Victor Lindelöf",
+    "jersey_number" : 3,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 4417,
+    "player_name" : "Ola Toivonen",
+    "player_nickname" : null,
+    "jersey_number" : 20,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 5607,
+    "player_name" : "Andreas Granqvist",
+    "player_nickname" : null,
+    "jersey_number" : 4,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 5612,
+    "player_name" : "Mikael Lustig",
+    "player_nickname" : null,
+    "jersey_number" : 2,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 5613,
+    "player_name" : "Viktor Claesson",
+    "player_nickname" : null,
+    "jersey_number" : 17,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 5615,
+    "player_name" : "Isaac Kiese Thelin",
+    "player_nickname" : null,
+    "jersey_number" : 22,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 5617,
+    "player_name" : "Sebastian Larsson",
+    "player_nickname" : null,
+    "jersey_number" : 7,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 5621,
+    "player_name" : "Ludwig Augustinsson",
+    "player_nickname" : null,
+    "jersey_number" : 6,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 5622,
+    "player_name" : "Robin Olsen",
+    "player_nickname" : null,
+    "jersey_number" : 1,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 5624,
+    "player_name" : "Albin Ekdal",
+    "player_nickname" : null,
+    "jersey_number" : 8,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 5625,
+    "player_name" : "Emil Forsberg",
+    "player_nickname" : null,
+    "jersey_number" : 10,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 6038,
+    "player_name" : "John Guidetti",
+    "player_nickname" : null,
+    "jersey_number" : 11,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 11098,
+    "player_name" : "Marcus Berg",
+    "player_nickname" : null,
+    "jersey_number" : 9,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  }, {
+    "player_id" : 19988,
+    "player_name" : "Jimmy Durmaz",
+    "player_nickname" : null,
+    "jersey_number" : 21,
+    "country" : {
+      "id" : 220,
+      "name" : "Sweden"
+    }
+  } ]
+} ]

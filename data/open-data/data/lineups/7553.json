@@ -1,0 +1,261 @@
+[ {
+  "team_id" : 794,
+  "team_name" : "Mexico",
+  "lineup" : [ {
+    "player_id" : 3058,
+    "player_name" : "Javier Hernández Balcázar",
+    "player_nickname" : "Javier Hernández",
+    "jersey_number" : 14,
+    "country" : {
+      "id" : 147,
+      "name" : "Mexico"
+    }
+  }, {
+    "player_id" : 5556,
+    "player_name" : "Miguel Arturo Layún Prado",
+    "player_nickname" : "Miguel Layún",
+    "jersey_number" : 7,
+    "country" : {
+      "id" : 147,
+      "name" : "Mexico"
+    }
+  }, {
+    "player_id" : 5558,
+    "player_name" : "Rafael Márquez Álvarez",
+    "player_nickname" : "Rafael Márquez ",
+    "jersey_number" : 4,
+    "country" : {
+      "id" : 147,
+      "name" : "Mexico"
+    }
+  }, {
+    "player_id" : 5560,
+    "player_name" : "Carlos Alberto Vela Garrido",
+    "player_nickname" : "Carlos Vela",
+    "jersey_number" : 11,
+    "country" : {
+      "id" : 147,
+      "name" : "Mexico"
+    }
+  }, {
+    "player_id" : 5563,
+    "player_name" : "José Andrés Guardado Hernández",
+    "player_nickname" : "Andrés Guardado",
+    "jersey_number" : 18,
+    "country" : {
+      "id" : 147,
+      "name" : "Mexico"
+    }
+  }, {
+    "player_id" : 5564,
+    "player_name" : "Carlos Joel Salcedo Hernández",
+    "player_nickname" : "Carlos Salcedo",
+    "jersey_number" : 3,
+    "country" : {
+      "id" : 147,
+      "name" : "Mexico"
+    }
+  }, {
+    "player_id" : 5567,
+    "player_name" : "Edson Omar Álvarez Velázquez",
+    "player_nickname" : "Edson Álvarez",
+    "jersey_number" : 21,
+    "country" : {
+      "id" : 147,
+      "name" : "Mexico"
+    }
+  }, {
+    "player_id" : 5571,
+    "player_name" : "Hirving Rodrigo Lozano Bahena",
+    "player_nickname" : "Hirving Lozano",
+    "jersey_number" : 22,
+    "country" : {
+      "id" : 147,
+      "name" : "Mexico"
+    }
+  }, {
+    "player_id" : 5573,
+    "player_name" : "Héctor Alfredo Moreno Herrera",
+    "player_nickname" : "Héctor Moreno",
+    "jersey_number" : 15,
+    "country" : {
+      "id" : 147,
+      "name" : "Mexico"
+    }
+  }, {
+    "player_id" : 5575,
+    "player_name" : "Héctor Miguel Herrera López",
+    "player_nickname" : "Héctor Herrera",
+    "jersey_number" : 16,
+    "country" : {
+      "id" : 147,
+      "name" : "Mexico"
+    }
+  }, {
+    "player_id" : 5576,
+    "player_name" : "Jesús Daniel Gallardo Vasconcelos",
+    "player_nickname" : "Jesús Gallardo",
+    "jersey_number" : 23,
+    "country" : {
+      "id" : 147,
+      "name" : "Mexico"
+    }
+  }, {
+    "player_id" : 5577,
+    "player_name" : "Francisco Guillermo Ochoa Magaña",
+    "player_nickname" : "Guillermo Ochoa",
+    "jersey_number" : 13,
+    "country" : {
+      "id" : 147,
+      "name" : "Mexico"
+    }
+  }, {
+    "player_id" : 5985,
+    "player_name" : "Jesús Manuel Corona Ruíz",
+    "player_nickname" : "Jesús Corona",
+    "jersey_number" : 17,
+    "country" : {
+      "id" : 147,
+      "name" : "Mexico"
+    }
+  }, {
+    "player_id" : 5987,
+    "player_name" : "Giovani dos Santos Ramírez",
+    "player_nickname" : "Giovani dos Santos",
+    "jersey_number" : 10,
+    "country" : {
+      "id" : 147,
+      "name" : "Mexico"
+    }
+  } ]
+}, {
+  "team_id" : 791,
+  "team_name" : "South Korea",
+  "lineup" : [ {
+    "player_id" : 3083,
+    "player_name" : "Heung-Min Son",
+    "player_nickname" : "Son Heung-Min",
+    "jersey_number" : 7,
+    "country" : {
+      "id" : 121,
+      "name" : "Korea (South)"
+    }
+  }, {
+    "player_id" : 3605,
+    "player_name" : "Sung-Yeung Ki",
+    "player_nickname" : "Ki Sung-Yeung",
+    "jersey_number" : 16,
+    "country" : {
+      "id" : 121,
+      "name" : "Korea (South)"
+    }
+  }, {
+    "player_id" : 5604,
+    "player_name" : "Young-Gwon Kim",
+    "player_nickname" : "Kim Young-Gwon",
+    "jersey_number" : 19,
+    "country" : {
+      "id" : 121,
+      "name" : "Korea (South)"
+    }
+  }, {
+    "player_id" : 5606,
+    "player_name" : "Hyun-Soo Jang",
+    "player_nickname" : "Jang Hyun-Soo",
+    "jersey_number" : 20,
+    "country" : {
+      "id" : 121,
+      "name" : "Korea (South)"
+    }
+  }, {
+    "player_id" : 5608,
+    "player_name" : "Yong Lee",
+    "player_nickname" : "Lee Yong",
+    "jersey_number" : 2,
+    "country" : {
+      "id" : 121,
+      "name" : "Korea (South)"
+    }
+  }, {
+    "player_id" : 5610,
+    "player_name" : "Min-Woo Kim",
+    "player_nickname" : "Kim Min-Woo",
+    "jersey_number" : 12,
+    "country" : {
+      "id" : 121,
+      "name" : "Korea (South)"
+    }
+  }, {
+    "player_id" : 5616,
+    "player_name" : "Seung-Woo Lee",
+    "player_nickname" : "Lee Seung-Woo",
+    "jersey_number" : 10,
+    "country" : {
+      "id" : 121,
+      "name" : "Korea (South)"
+    }
+  }, {
+    "player_id" : 5618,
+    "player_name" : "Woo-Young Jung",
+    "player_nickname" : "Jung Woo-Young",
+    "jersey_number" : 15,
+    "country" : {
+      "id" : 121,
+      "name" : "Korea (South)"
+    }
+  }, {
+    "player_id" : 5619,
+    "player_name" : "Hyun-Woo Cho",
+    "player_nickname" : "Cho Hyun-Woo",
+    "jersey_number" : 23,
+    "country" : {
+      "id" : 121,
+      "name" : "Korea (South)"
+    }
+  }, {
+    "player_id" : 5620,
+    "player_name" : "Hee-Chan Hwang",
+    "player_nickname" : "Hwang Hee-Chan",
+    "jersey_number" : 11,
+    "country" : {
+      "id" : 121,
+      "name" : "Korea (South)"
+    }
+  }, {
+    "player_id" : 5623,
+    "player_name" : "Jae-Sung Lee",
+    "player_nickname" : "Lee Jae-Sung",
+    "jersey_number" : 17,
+    "country" : {
+      "id" : 121,
+      "name" : "Korea (South)"
+    }
+  }, {
+    "player_id" : 5986,
+    "player_name" : "Chul Hong",
+    "player_nickname" : "Hong Chul",
+    "jersey_number" : 14,
+    "country" : {
+      "id" : 121,
+      "name" : "Korea (South)"
+    }
+  }, {
+    "player_id" : 5988,
+    "player_name" : "Se-Jong Ju",
+    "player_nickname" : "Ju Se-Jong",
+    "jersey_number" : 8,
+    "country" : {
+      "id" : 121,
+      "name" : "Korea (South)"
+    }
+  }, {
+    "player_id" : 5989,
+    "player_name" : "Seon-Min Moon",
+    "player_nickname" : "Moon Seon-Min",
+    "jersey_number" : 18,
+    "country" : {
+      "id" : 121,
+      "name" : "Korea (South)"
+    }
+  } ]
+} ]

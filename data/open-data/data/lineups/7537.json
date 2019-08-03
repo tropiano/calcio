@@ -1,0 +1,261 @@
+[ {
+  "team_id" : 768,
+  "team_name" : "England",
+  "lineup" : [ {
+    "player_id" : 3094,
+    "player_name" : "Bamidele Alli",
+    "player_nickname" : "Dele Alli",
+    "jersey_number" : 20,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }, {
+    "player_id" : 3205,
+    "player_name" : "Kyle Walker",
+    "player_nickname" : null,
+    "jersey_number" : 2,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }, {
+    "player_id" : 3233,
+    "player_name" : "Raheem Shaquille Sterling",
+    "player_nickname" : "Raheem Sterling",
+    "jersey_number" : 10,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }, {
+    "player_id" : 3244,
+    "player_name" : "John Stones",
+    "player_nickname" : null,
+    "jersey_number" : 5,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }, {
+    "player_id" : 3293,
+    "player_name" : "Jesse Lingard",
+    "player_nickname" : null,
+    "jersey_number" : 7,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }, {
+    "player_id" : 3308,
+    "player_name" : "Kieran Trippier",
+    "player_nickname" : null,
+    "jersey_number" : 12,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }, {
+    "player_id" : 3318,
+    "player_name" : "Marcus Rashford",
+    "player_nickname" : null,
+    "jersey_number" : 19,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }, {
+    "player_id" : 3336,
+    "player_name" : "Harry Maguire",
+    "player_nickname" : null,
+    "jersey_number" : 6,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }, {
+    "player_id" : 3468,
+    "player_name" : "Jordan Pickford",
+    "player_nickname" : null,
+    "jersey_number" : 1,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }, {
+    "player_id" : 3504,
+    "player_name" : "Ruben Loftus-Cheek",
+    "player_nickname" : null,
+    "jersey_number" : 21,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }, {
+    "player_id" : 3532,
+    "player_name" : "Jordan Brian Henderson",
+    "player_nickname" : "Jordan Henderson",
+    "jersey_number" : 8,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }, {
+    "player_id" : 3612,
+    "player_name" : "Ashley Young",
+    "player_nickname" : null,
+    "jersey_number" : 18,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }, {
+    "player_id" : 10955,
+    "player_name" : "Harry Kane",
+    "player_nickname" : null,
+    "jersey_number" : 9,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  }, {
+    "player_id" : 10956,
+    "player_name" : "Eric Dier",
+    "player_nickname" : null,
+    "jersey_number" : 4,
+    "country" : {
+      "id" : 68,
+      "name" : "England"
+    }
+  } ]
+}, {
+  "team_id" : 777,
+  "team_name" : "Tunisia",
+  "lineup" : [ {
+    "player_id" : 3196,
+    "player_name" : "Wahbi Khazri",
+    "player_nickname" : null,
+    "jersey_number" : 10,
+    "country" : {
+      "id" : 232,
+      "name" : "Tunisia"
+    }
+  }, {
+    "player_id" : 3557,
+    "player_name" : "Naïm Sliti",
+    "player_nickname" : null,
+    "jersey_number" : 23,
+    "country" : {
+      "id" : 232,
+      "name" : "Tunisia"
+    }
+  }, {
+    "player_id" : 3767,
+    "player_name" : "Ellyes Skhiri",
+    "player_nickname" : null,
+    "jersey_number" : 17,
+    "country" : {
+      "id" : 232,
+      "name" : "Tunisia"
+    }
+  }, {
+    "player_id" : 5647,
+    "player_name" : "Ali Maâloul",
+    "player_nickname" : null,
+    "jersey_number" : 12,
+    "country" : {
+      "id" : 232,
+      "name" : "Tunisia"
+    }
+  }, {
+    "player_id" : 5648,
+    "player_name" : "Farouk Ben Mustapha",
+    "player_nickname" : null,
+    "jersey_number" : 1,
+    "country" : {
+      "id" : 232,
+      "name" : "Tunisia"
+    }
+  }, {
+    "player_id" : 5649,
+    "player_name" : "Anice Badri",
+    "player_nickname" : null,
+    "jersey_number" : 9,
+    "country" : {
+      "id" : 232,
+      "name" : "Tunisia"
+    }
+  }, {
+    "player_id" : 5650,
+    "player_name" : "Ferjani Sassi",
+    "player_nickname" : null,
+    "jersey_number" : 13,
+    "country" : {
+      "id" : 232,
+      "name" : "Tunisia"
+    }
+  }, {
+    "player_id" : 5651,
+    "player_name" : "Yassine Meriah",
+    "player_nickname" : null,
+    "jersey_number" : 4,
+    "country" : {
+      "id" : 232,
+      "name" : "Tunisia"
+    }
+  }, {
+    "player_id" : 5652,
+    "player_name" : "Saber Khalifa",
+    "player_nickname" : null,
+    "jersey_number" : 19,
+    "country" : {
+      "id" : 232,
+      "name" : "Tunisia"
+    }
+  }, {
+    "player_id" : 5653,
+    "player_name" : "Mouez Hassen",
+    "player_nickname" : null,
+    "jersey_number" : 22,
+    "country" : {
+      "id" : 232,
+      "name" : "Tunisia"
+    }
+  }, {
+    "player_id" : 5654,
+    "player_name" : "Fakhreddine Ben Youssef",
+    "player_nickname" : null,
+    "jersey_number" : 8,
+    "country" : {
+      "id" : 232,
+      "name" : "Tunisia"
+    }
+  }, {
+    "player_id" : 5655,
+    "player_name" : "Dylan Bronn",
+    "player_nickname" : null,
+    "jersey_number" : 11,
+    "country" : {
+      "id" : 232,
+      "name" : "Tunisia"
+    }
+  }, {
+    "player_id" : 5656,
+    "player_name" : "Syam Ben Youssef",
+    "player_nickname" : null,
+    "jersey_number" : 2,
+    "country" : {
+      "id" : 232,
+      "name" : "Tunisia"
+    }
+  }, {
+    "player_id" : 5657,
+    "player_name" : "Mohamed Amine Ben Amor",
+    "player_nickname" : null,
+    "jersey_number" : 14,
+    "country" : {
+      "id" : 232,
+      "name" : "Tunisia"
+    }
+  } ]
+} ]
